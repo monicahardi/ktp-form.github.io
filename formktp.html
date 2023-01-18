@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form KTP</title>
+    <link rel="stylesheet" href="formktp.css">
+</head>
+<body>
+    <div class="container">
+        <h2 align="center">PROVINSI JAWA BARAT</h2>
+        <h2 align="center">KOTA BANDUNG</h2>
+        <div class="main">
+            <div class="main1">
+                <p><label>NIK</label>
+                <input type="text" value="" size="20" maxlength="30" placeholder="NIK"></p>
+                <p><label>Nama</label>
+                <input type="text" value="" size="20" maxlength="50" placeholder="Nama Lengkap"></p>
+                <p><label>Gol.Darah</label>
+                    <select name="goldar">
+                        <option value="O">O</option>
+                        <option value="A">A</option>
+                        <option value="B">B</option>
+                        <option value="AB">AB</option>
+                    </select></p>
+                <p><label>Tempat Lahir</label>
+                <input type="text" value="" size="20" maxlength="50" placeholder="Tempat Lahir"></p>
+                <p><label>Tanggal Lahir</label>
+                <input type="date"></p>
+            </div>
+            <div class="main2">
+                <p><label>Jenis Kelamin</label>
+                <input type="radio" value="P" name="jk">Perempuan
+                <input type="radio" value="L" name="jk">Laki-laki</p>
+                <p><label>Alamat</label>
+                <input type="text" value="" size="25" placeholder="Alamat Lengkap">
+                <p><label>Agama</label>
+                <select name="agama">
+                    <option value="Islam">Islam</option>
+                    <option value="Kristen">Kristen</option>
+                    <option value="Katolik">Katolik</option>
+                    <option value="Hindu">Hindu</option>
+                    <option value="Budha">Budha</option>
+                </select></p>
+                <p><label>Status Perkawinan</label>
+                    <input type="radio" value="bk" name="nikah">Belum Menikah
+                    <input type="radio" value="k" name="nikah">Menikah</p>
+                    <p><label>Pekerjaan</label>
+                        <input type="text" value="" size="25" placeholder="Pekerjaan"></p>
+            </div>
+            <div class="main3">
+                <input type="file">
+            </div>
+        </div>
+        <div class="simpan">
+            <button type="submit">Simpan</button>
+        </div>
+    </div>
+</body>
+</html>
